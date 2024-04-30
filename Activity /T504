@@ -16,9 +16,8 @@ public class NumberGuessingGame extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        // Initialize the random number generator
         Random random = new Random();
-        numberToGuess = random.nextInt(100) + 1; // Generates a random number between 1 and 100
+        numberToGuess = random.nextInt(100) + 1; 
 
         // Create UI elements
         Label titleLabel = new Label("Number Guessing Game");
